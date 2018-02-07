@@ -1,0 +1,262 @@
+# Page settings
+baseurl = "localhost:1313"
+title = "Bitcoin Cash Logos and Brand"
+languageCode = "en-us"
+theme = "hugo-elate-theme"
+
+[params]
+  
+
+  # Meta
+  author = ""
+  description = "Download Bitcoin Cash logos and browse BCH visual identity."
+  email = ""
+  # Navigation
+  [params.navigation]
+    brand = "Bitcoin Cash"
+    home = "Home"
+    logos = "Logos"
+    merchant = "Merchant"
+    donation = "Donations"
+    identity = "Identity"
+
+    
+  
+  # Hero section
+  [params.hero]
+    title = "Promotional Graphics"
+    subtitle = 'These Bitcoin Cash logos and brand assets can be used for display in online services, retail establishments, press or other promotional purposes.'
+ 
+
+
+  # Logos section
+  [params.logos]
+    enable = true
+    title = "Logos"
+    description = "Download Bitcoin Cash logos in PNG and SVG"
+
+    [[params.logos.item]]
+      img = "1-bitcoin-cash-logo-medium.png"
+      alt = "Bitcoin Cash Logo"
+      files = [
+        ["Small (PNG)", "1-bitcoin-cash-logo-small.png"],
+        ["Medium (PNG)", "1-bitcoin-cash-logo-medium.png"],
+        ["Large (PNG)", "1-bitcoin-cash-logo-large.png"],
+        ["Full (PNG)", "1-bitcoin-cash-logo-full.png"],
+        ["Vector (SVG)", "1-bitcoin-cash-logo.svg"]
+      ]
+
+      [[params.logos.item]]
+      img = "2-bitcoin-cash-logo-wt-medium.png"
+      alt = "Bitcoin Cash Logo"
+      class = " dark"
+        files = [
+          ["Small (PNG)", "2-bitcoin-cash-logo-wt-small.png"],
+          ["Medium (PNG)", "2-bitcoin-cash-logo-wt-medium.png"],
+          ["Large (PNG)", "2-bitcoin-cash-logo-wt-large.png"],
+          ["Full (PNG)", "2-bitcoin-cash-logo-wt-full.png"],
+          ["Vector (SVG)", "2-bitcoin-cash-logo-wt.svg"]
+        ]
+
+
+      [[params.logos.item]]
+      img = "3-bitcoin-cash-logo-ot-medium.png"
+      alt = "Bitcoin Cash Logo"
+      files = [
+        ["Small (PNG)", "3-bitcoin-cash-logo-ot-small.png"],
+        ["Medium (PNG)", "3-bitcoin-cash-logo-ot-medium.png"],
+        ["Large (PNG)", "3-bitcoin-cash-logo-ot-large.png"],
+        ["Full (PNG)", "3-bitcoin-cash-logo-ot-full.png"],
+        ["Vector (SVG)", "3-bitcoin-cash-logo-ot.svg"]
+      ]
+
+      [[params.logos.item]]
+      img = "4-bitcoin-cash-logo-flag-full.png"
+      alt = "Bitcoin Cash Logo"
+      files = [
+        ["Small (PNG)", "4-bitcoin-cash-logo-flag-small.png"],
+        ["Medium (PNG)", "4-bitcoin-cash-logo-flag-medium.png"],
+        ["Large (PNG)", "4-bitcoin-cash-logo-flag-large.png"],
+        ["Full (PNG)", "4-bitcoin-cash-logo-flag-full.png"],
+        ["Vector (SVG)", "4-bitcoin-cash-logo-flag.svg"]
+      ]
+
+      
+
+      [[params.logos.item]]
+      img = "5-bitcoin-cash-logo-horizontal-wt-medium.png"
+      alt = "Bitcoin Cash Logo"
+      class = " dark horiz"
+      files = [
+        ["Small (PNG)", "5-bitcoin-cash-logo-horizontal-wt-small.png"],
+        ["Medium (PNG)", "5-bitcoin-cash-logo-horizontal-wt-medium.png"],
+        ["Large (PNG)", "5-bitcoin-cash-logo-horizontal-wt-large.png"],
+        ["Full (PNG)", "5-bitcoin-cash-logo-horizontal-wt-full.png"],
+        ["Vector (SVG)", "5-bitcoin-cash-logo-horizontal-wt.svg"]
+      ]
+
+      [[params.logos.item]]
+      img = "6-bitcoin-cash-logo-horizontal-full.png"
+      alt = "Bitcoin Cash Logo"
+      class = " horiz"
+      files = [
+        ["Small (PNG)", "6-bitcoin-cash-logo-horizontal-small.png"],
+        ["Medium (PNG)", "6-bitcoin-cash-logo-horizontal-medium.png"],
+        ["Large (PNG)", "6-bitcoin-cash-logo-horizontal-large.png"],
+        ["Full (PNG)", "6-bitcoin-cash-logo-horizontal-full.png"],
+        ["Vector (SVG)", "6-bitcoin-cash-logo-horizontal.svg"]
+      ]
+
+      
+
+
+
+      
+
+
+  # Merchant section
+  [params.merchant]
+    enable = true
+    title = "Merchant Buttons"
+    description = "Show your customers that you accept Bitcoin Cash."
+
+    [[params.merchant.item]]
+      img = "7-bitcoin-cash-accepted-here-medium.png"
+      alt = "Bitcoin Cash Accepted Here"
+      files = [
+        ["Small (PNG)", "7-bitcoin-cash-accepted-here-small.png"],
+        ["Medium (PNG)", "7-bitcoin-cash-accepted-here-medium.png"],
+        ["Large (PNG)", "7-bitcoin-cash-accepted-here-large.png"],
+        ["Full (PNG)", "7-bitcoin-cash-accepted-here-full.png"],
+        ["Vector (SVG)", "7-bitcoin-cash-accepted-here.svg"]
+      ]
+
+      [[params.merchant.item]]
+      img = "8-bitcoin-cash-accepted-here-orange-medium.png"
+      alt = "Bitcoin Cash Accepted Here"
+      files = [
+        ["Small (PNG)", "8-bitcoin-cash-accepted-here-orange-small.png"],
+        ["Medium (PNG)", "8-bitcoin-cash-accepted-here-orange-medium.png"],
+        ["Large (PNG)", "8-bitcoin-cash-accepted-here-orange-large.png"],
+        ["Full (PNG)", "8-bitcoin-cash-accepted-here-orange-full.png"],
+        ["Vector (SVG)", "8-bitcoin-cash-accepted-here-orange.svg"]
+      ]
+
+      [[params.merchant.item]]
+      img = "9-bitcoin-cash-circle-medium.png"
+      alt = "Bitcoin Cash Accepted Here"
+      class = "small-circle"
+      files = [
+        ["Small (PNG)", "9-bitcoin-cash-circle-small.png"],
+        ["Medium (PNG)", "9-bitcoin-cash-circle-medium.png"],
+        ["Large (PNG)", "9-bitcoin-cash-circle-large.png"],
+        ["Full (PNG)", "9-bitcoin-cash-circle-full.png"],
+        ["Vector (SVG)", "9-bitcoin-cash-circle.svg"]
+      ]
+
+
+
+  # Donation section
+  [params.donation]
+    enable = true
+    title = "Donation Buttons"
+    description = "Promote the acceptance of Bitcoin Cash as a donation method."
+
+    [[params.donation.item]]
+      img = "10-bitcoin-cash-donations-medium.png"
+      alt = "Bitcoin Cash Donations Accepted"
+      files = [
+        ["Small (PNG)", "10-bitcoin-cash-donations-small.png"],
+        ["Medium (PNG)", "10-bitcoin-cash-donations-medium.png"],
+        ["Large (PNG)", "10-bitcoin-cash-donations-large.png"],
+        ["Full (PNG)", "10-bitcoin-cash-donations-full.png"],
+        ["Vector (SVG)", "10-bitcoin-cash-donations.svg"]
+      ]
+
+    [[params.donation.item]]
+      img = "11-bitcoin-cash-donations-orange-medium.png"
+      alt = "Bitcoin Cash Donations Accepted"
+      files = [
+        ["Small (PNG)", "11-bitcoin-cash-donations-orange-small.png"],
+        ["Medium (PNG)", "11-bitcoin-cash-donations-orange-medium.png"],
+        ["Large (PNG)", "11-bitcoin-cash-donations-orange-large.png"],
+        ["Full (PNG)", "11-bitcoin-cash-donations-orange-full.png"],
+        ["Vector (SVG)", "11-bitcoin-cash-donations-orange.svg"]
+      ]
+
+      [[params.donation.item]]
+      img = "9-bitcoin-cash-circle-medium.png"
+      alt = "Bitcoin Cash Accepted Here"
+      class = "small-circle"
+      files = [
+        ["Small (PNG)", "9-bitcoin-cash-circle-small.png"],
+        ["Medium (PNG)", "9-bitcoin-cash-circle-medium.png"],
+        ["Large (PNG)", "9-bitcoin-cash-circle-large.png"],
+        ["Full (PNG)", "9-bitcoin-cash-circle-full.png"],
+        ["Vector (SVG)", "9-bitcoin-cash-circle.svg"]
+      ]
+
+
+
+
+
+  # Identity section
+  [params.identity]
+    enable = true
+    title = "Visual Identity"
+    description = "Bitcoin Cash fonts, colors, and more."
+
+    [[params.identity.colors]]
+      hex = "#F59332"
+      rgb = "247 / 148 / 29"
+      cmyk = "0 / 50 / 100 / 0"
+      pantone = "1375C"
+      title = "Bitcoin Cash Orange"
+      
+
+    
+    [[params.identity.colors]]
+      hex = "#4D4D4D"
+      rgb = "77 / 77 / 77"
+      cmyk = "65 / 58 / 57 / 37"
+      pantone = "11C"
+      title = "Bitcoin Cash Grey"
+      
+
+    
+    [[params.identity.colors]]
+      hex = "#FFFFFF"
+      rgb = "255 / 255 / 255"
+      cmyk = "0 / 0 / 0 / 0"
+      pantone = "paper"
+      title = "Bitcoin Cash White"
+      
+
+    [[params.identity.font]]
+      title = "Ubuntu Bold"
+      style = "font-weight:bold"
+      url = "https://fonts.google.com/specimen/Ubuntu?selection.family=Ubuntu:700"
+      sample = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890?!%"
+
+      [[params.identity.font]]
+      title = "Ubuntu Bold Italic"
+      style = "font-style:italic"
+      url = "https://fonts.google.com/specimen/Ubuntu?selection.family=Ubuntu:700i"
+      sample = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890?!%"
+      
+
+    
+
+
+     
+
+  
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = '&copy; MIT License. No Rights Reserved.'
+    links = [
+        ["icon-github", "https://github.com/bitcoincashorg/website"],
+        ["icon-facebook", "https://www.facebook.com/bitcoincashorg"],
+        ["icon-reddit", "https://www.reddit.com/r/Bitcoincash/"]
+      ]
