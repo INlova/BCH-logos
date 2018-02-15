@@ -1012,12 +1012,40 @@ h1, h2, h3, h4, h5, h6 {
   background:#4d4d4d;
 }
 
+.fh5co-person .flag {
+  padding-bottom:55px;
+}
+
+@media screen and (max-width: 1200px) {
+
+
+.fh5co-person .flag {
+  padding-bottom:44px;
+}
+
+}
+
+
 #fh5co-merchant .fh5co-person img.small-circle, #fh5co-donation .fh5co-person img.small-circle {
   padding:0em 4.42em;
 }
 
 .fh5co-person .horiz {
   padding:7.2rem 5px;
+}
+
+.fh5co-person .square-crop {
+  padding:0px 2.76em;
+}
+
+
+@media screen and (max-width: 1200px) {
+  
+  .fh5co-person .square-crop {
+    padding-left: 1.4em;
+    padding-right:1.4em;
+  }
+
 }
 
 .fh5co-person img {

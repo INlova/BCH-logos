@@ -35,16 +35,16 @@ theme = "hugo-elate-theme"
     title = "Logos"
     description = "Download Bitcoin Cash logos in PNG and SVG"
 
-    [[params.logos.item]]
-      img = "1-bitcoin-cash-logo-medium.png"
-      alt = "Bitcoin Cash Logo"
-      files = [
-        ["Small (PNG)", "1-bitcoin-cash-logo-small.png"],
-        ["Medium (PNG)", "1-bitcoin-cash-logo-medium.png"],
-        ["Large (PNG)", "1-bitcoin-cash-logo-large.png"],
-        ["Full (PNG)", "1-bitcoin-cash-logo-full.png"],
-        ["Vector (SVG)", "1-bitcoin-cash-logo.svg"]
-      ]
+    #[[params.logos.item]]
+    #  img = "1-bitcoin-cash-logo-medium.png"
+    #  alt = "Bitcoin Cash Logo"
+    #  files = [
+    #    ["Small (PNG)", "1-bitcoin-cash-logo-small.png"],
+    #    ["Medium (PNG)", "1-bitcoin-cash-logo-medium.png"],
+    #    ["Large (PNG)", "1-bitcoin-cash-logo-large.png"],
+    #    ["Full (PNG)", "1-bitcoin-cash-logo-full.png"],
+    #    ["Vector (SVG)", "1-bitcoin-cash-logo.svg"]
+    #  ]
 
       [[params.logos.item]]
       img = "2-bitcoin-cash-logo-wt-medium.png"
@@ -71,8 +71,10 @@ theme = "hugo-elate-theme"
       ]
 
       [[params.logos.item]]
-      img = "4-bitcoin-cash-logo-flag-full.png"
+      img = "4-bitcoin-cash-logo-flag-medium.png"
       alt = "Bitcoin Cash Logo"
+      class = "flag"
+
       files = [
         ["Small (PNG)", "4-bitcoin-cash-logo-flag-small.png"],
         ["Medium (PNG)", "4-bitcoin-cash-logo-flag-medium.png"],
@@ -96,7 +98,7 @@ theme = "hugo-elate-theme"
       ]
 
       [[params.logos.item]]
-      img = "6-bitcoin-cash-logo-horizontal-full.png"
+      img = "6-bitcoin-cash-logo-horizontal-medium.png"
       alt = "Bitcoin Cash Logo"
       class = " horiz"
       files = [
@@ -105,6 +107,18 @@ theme = "hugo-elate-theme"
         ["Large (PNG)", "6-bitcoin-cash-logo-horizontal-large.png"],
         ["Full (PNG)", "6-bitcoin-cash-logo-horizontal-full.png"],
         ["Vector (SVG)", "6-bitcoin-cash-logo-horizontal.svg"]
+      ]
+
+      [[params.logos.item]]
+      img = "12-bitcoin-cash-square-crop-medium.png"
+      alt = "Bitcoin Cash Logo"
+      class = " square-crop"
+      files = [
+        ["Small (PNG)", "12-bitcoin-cash-square-crop-small.png"],
+        ["Medium (PNG)", "12-bitcoin-cash-square-crop-medium.png"],
+        ["Large (PNG)", "12-bitcoin-cash-square-crop-large.png"],
+        ["Full (PNG)", "12-bitcoin-cash-square-crop-full.png"],
+        ["Vector (SVG)", "12-bitcoin-cash-square-crop-horizontal.svg"]
       ]
 
       
@@ -142,17 +156,17 @@ theme = "hugo-elate-theme"
         ["Vector (SVG)", "8-bitcoin-cash-accepted-here-orange.svg"]
       ]
 
-      [[params.merchant.item]]
-      img = "9-bitcoin-cash-circle-medium.png"
-      alt = "Bitcoin Cash Accepted Here"
-      class = "small-circle"
-      files = [
-        ["Small (PNG)", "9-bitcoin-cash-circle-small.png"],
-        ["Medium (PNG)", "9-bitcoin-cash-circle-medium.png"],
-        ["Large (PNG)", "9-bitcoin-cash-circle-large.png"],
-        ["Full (PNG)", "9-bitcoin-cash-circle-full.png"],
-        ["Vector (SVG)", "9-bitcoin-cash-circle.svg"]
-      ]
+      #[[params.merchant.item]]
+      #img = "9-bitcoin-cash-circle-medium.png"
+      #alt = "Bitcoin Cash Accepted Here"
+      #class = "small-circle"
+      #files = [
+      #  ["Small (PNG)", "9-bitcoin-cash-circle-small.png"],
+      #  ["Medium (PNG)", "9-bitcoin-cash-circle-medium.png"],
+      #  ["Large (PNG)", "9-bitcoin-cash-circle-large.png"],
+      #  ["Full (PNG)", "9-bitcoin-cash-circle-full.png"],
+      #  ["Vector (SVG)", "9-bitcoin-cash-circle.svg"]
+      #]
 
 
 
@@ -184,17 +198,17 @@ theme = "hugo-elate-theme"
         ["Vector (SVG)", "11-bitcoin-cash-donations-orange.svg"]
       ]
 
-      [[params.donation.item]]
-      img = "9-bitcoin-cash-circle-medium.png"
-      alt = "Bitcoin Cash Accepted Here"
-      class = "small-circle"
-      files = [
-        ["Small (PNG)", "9-bitcoin-cash-circle-small.png"],
-        ["Medium (PNG)", "9-bitcoin-cash-circle-medium.png"],
-        ["Large (PNG)", "9-bitcoin-cash-circle-large.png"],
-        ["Full (PNG)", "9-bitcoin-cash-circle-full.png"],
-        ["Vector (SVG)", "9-bitcoin-cash-circle.svg"]
-      ]
+      #[[params.donation.item]]
+      #img = "9-bitcoin-cash-circle-medium.png"
+      #alt = "Bitcoin Cash Accepted Here"
+      #class = "small-circle"
+      #files = [
+      #  ["Small (PNG)", "9-bitcoin-cash-circle-small.png"],
+      #  ["Medium (PNG)", "9-bitcoin-cash-circle-medium.png"],
+      #  ["Large (PNG)", "9-bitcoin-cash-circle-large.png"],
+      #  ["Full (PNG)", "9-bitcoin-cash-circle-full.png"],
+      #  ["Vector (SVG)", "9-bitcoin-cash-circle.svg"]
+      #]
 
 
 
